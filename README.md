@@ -41,7 +41,14 @@ tanvir@tanvir-Inspiron-3501:~/Desktop/credit/credit_engine_weather$ tree -L 1 --
 └── requirements.txt
 ```
 
-## Full tree directory of "credit_engine_weather" project
+## Troubleshooting
+Q: I get the following error message when using the docker command:
+
+```
+FATA[0000] Get http:///var/run/docker.sock/v1.16/containers/json: dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS? 
+
+```
+# Full tree directory of "credit_engine_weather" project
 
 tanvir@tanvir-Inspiron-3501:~/Desktop/credit/credit_engine_weather$ tree
 .
@@ -92,11 +99,3 @@ tanvir@tanvir-Inspiron-3501:~/Desktop/credit/credit_engine_weather$ tree
 └── requirements.txt
 
 10 directories, 35 files
-
-## Troubleshooting
-Q: I get the following error message when using the docker command:
-
-```
-FATA[0000] Get http:///var/run/docker.sock/v1.16/containers/json: dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS? 
-
-```
