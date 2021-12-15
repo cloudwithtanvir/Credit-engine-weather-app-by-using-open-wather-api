@@ -6,6 +6,7 @@
   [x] add global css
   [x] modify admin html (dashboard)
   [x] custom form distribution
+  [x] DB: postgresql/Sqlite 
   [] Deploy to aws 
       [x] Adding gitaction workflow [CI/CD] 
       [x] Build image on AWS ECR
