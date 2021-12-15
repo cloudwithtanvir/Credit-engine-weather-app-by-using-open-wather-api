@@ -1,3 +1,19 @@
+#### Features Implemented:
+  [x] Search the city
+  [x] Calling the open api from <https://openweathermap.org/api>
+  [x] Dockerize the project
+  [x] add css for a source
+  [x] add global css
+  [x] modify admin html (dashboard)
+  [x] custom form distribution
+  [] Deploy to aws 
+      [x] Build image on AWS ECR
+      [x] Deploy on ECS
+      [] Faceing some issues to deploy,it's fixable but it may take more hours 
+
+Here is the client view of this project:
+![User Interface](./images/picture.jpg)
+
 # Quick start with Docker Django & Run locally
 =============
 # Set up the environment
@@ -5,7 +21,7 @@ Install Docker Engine from the tutorial https://docs.docker.com/engine/installat
 Install Docker Compose from the tutorial https://docs.docker.com/compose/install/.
 
 Get the latest project clone to your computer:
-$ git clone 
+$ git clone https://github.com/tanvirewu/Credit-engine-weather-app-by-using-open-wather-api.git
 
 Run docker-compose commands to start containers:
 $ docker-compose up
@@ -14,16 +30,13 @@ $ docker-compose up
 Now you can access the application at <http://0.0.0.0:8000/> and the admin site
 at <http://0.0.0.0:8000/admin>.
 
-#### features implemented:
-  * Search the city
-  * Adding the city
-  * Calling the open api from <https://openweathermap.org/api>
-  * Filtering the necessity data
-  * Dockerize the project
-  * add css for a source
-  * add global css
-  * modify admin html (dashboard)
-  * custom form distribution
+1. pip install -r requirements.txt
+2. python manage.py makemigrations credit_e_weather
+3. python manage.py migrate credit_e_weather
+4. python manage.py runserver
+### Run without docker
+
+
 
 ## Folder structure
 
@@ -41,7 +54,14 @@ tanvir@tanvir-Inspiron-3501:~/Desktop/credit/credit_engine_weather$ tree -L 1 --
 └── requirements.txt
 ```
 
-## Full tree directory of "credit_engine_weather" project
+## Troubleshooting
+Q: I get the following error message when using the docker command:
+
+```
+FATA[0000] Get http:///var/run/docker.sock/v1.16/containers/json: dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS? 
+
+```
+# Full tree directory of "credit_engine_weather" project
 
 tanvir@tanvir-Inspiron-3501:~/Desktop/credit/credit_engine_weather$ tree
 .
@@ -92,11 +112,3 @@ tanvir@tanvir-Inspiron-3501:~/Desktop/credit/credit_engine_weather$ tree
 └── requirements.txt
 
 10 directories, 35 files
-
-## Troubleshooting
-Q: I get the following error message when using the docker command:
-
-```
-FATA[0000] Get http:///var/run/docker.sock/v1.16/containers/json: dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS? 
-
-```
