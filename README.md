@@ -1,13 +1,15 @@
 #### Features Implemented:
-  * Search the city
-  * Adding the city
-  * Calling the open api from <https://openweathermap.org/api>
-  * Filtering the necessity data
-  * Dockerize the project
-  * add css for a source
-  * add global css
-  * modify admin html (dashboard)
-  * custom form distribution
+  [x] Search the city
+  [x] Calling the open api from <https://openweathermap.org/api>
+  [x] Dockerize the project
+  [x] add css for a source
+  [x] add global css
+  [x] modify admin html (dashboard)
+  [x] custom form distribution
+  [] Deploy to aws 
+      [x] Build image on AWS ECR
+      [x] Deploy on ECS
+      [] Faceing some issues to deploy,it's fixable but it may take more hours 
 
 Here is the client view of this project:
 ![User Interface](./images/picture.jpg)
