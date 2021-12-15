@@ -5,7 +5,7 @@
   - Calling the open api from <https://openweathermap.org/api> .
   - Dockerize the project. 
   - DB: postgresql/Sqlite 
-  [] Deploy to aws 
+  - [] Deploy to aws 
   - Adding gitaction workflow [CI/CD] 
   - Build image on AWS ECR
     Deploy on ECS
