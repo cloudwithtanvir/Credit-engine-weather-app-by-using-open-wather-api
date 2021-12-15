@@ -10,7 +10,7 @@
   * custom form distribution
 
 Here is the client view of this project:
-![](./pictures/image.png)
+![User Interface](./images/picture.jpg)
 
 # Quick start with Docker Django & Run locally
 =============
