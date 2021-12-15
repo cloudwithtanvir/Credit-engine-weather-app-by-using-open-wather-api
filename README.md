@@ -7,6 +7,7 @@
   [x] modify admin html (dashboard)
   [x] custom form distribution
   [] Deploy to aws 
+      [x] Adding gitaction workflow [CI/CD] 
       [x] Build image on AWS ECR
       [x] Deploy on ECS
       [] Faceing some issues to deploy,it's fixable but it may take more hours 
