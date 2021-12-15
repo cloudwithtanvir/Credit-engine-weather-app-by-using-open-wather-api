@@ -1,17 +1,14 @@
 
 #### Features Implemented:
-  [x] Search the city
-  [x] Calling the open api from <https://openweathermap.org/api>
-  [x] Dockerize the project
-  [x] add css for a source
-  [x] add global css
-  [x] modify admin html (dashboard)
-  [x] custom form distribution
-  [x] DB: postgresql/Sqlite 
+
+  - Search the city.
+  - Calling the open api from <https://openweathermap.org/api> .
+  - Dockerize the project. 
+  - DB: postgresql/Sqlite 
   [] Deploy to aws 
-  [x] Adding gitaction workflow [CI/CD] 
-  [x] Build image on AWS ECR
-  [x] Deploy on ECS
+  - Adding gitaction workflow [CI/CD] 
+  - Build image on AWS ECR
+    Deploy on ECS
 Faceing some issues to deploy,it's fixable but it may take more hours 
 
 
