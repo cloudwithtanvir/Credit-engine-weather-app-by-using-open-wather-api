@@ -8,10 +8,10 @@
   [x] custom form distribution
   [x] DB: postgresql/Sqlite 
   [] Deploy to aws 
-      [x] Adding gitaction workflow [CI/CD] 
-      [x] Build image on AWS ECR
-      [x] Deploy on ECS
-      [] Faceing some issues to deploy,it's fixable but it may take more hours 
+  [x] Adding gitaction workflow [CI/CD] 
+  [x] Build image on AWS ECR
+  [x] Deploy on ECS
+Faceing some issues to deploy,it's fixable but it may take more hours 
 
 Here is the client view of this project:
 ![User Interface](./images/picture.jpg)
