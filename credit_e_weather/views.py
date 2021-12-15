@@ -15,10 +15,9 @@ def index(request):
     cities = City.objects.all()
 
     weather_data = []
-
-    for city in cities:
-
-        r = requests.get(url.format(city)).json()
+    try:
+        for city in cities:
+            r = requests.get(url.format(city)).json()
 
         city_weather = {
             'city' : city.name,
@@ -33,6 +32,11 @@ def index(request):
         }
 
         weather_data.append(city_weather)
+
+    except KeyError:
+        pass
+    except EXCEPTION as e:
+        pass
 
     context = {'weather_data' : weather_data, 'form' : form}
     return render(request, 'weather/weather.html', context)

@@ -1,20 +1,4 @@
-# Quick start with Docker Django & Run locally
-=============
-# Set up the environment
-Install Docker Engine from the tutorial https://docs.docker.com/engine/installation/.
-Install Docker Compose from the tutorial https://docs.docker.com/compose/install/.
-
-Get the latest project clone to your computer:
-$ git clone 
-
-Run docker-compose commands to start containers:
-$ docker-compose up
-
-
-Now you can access the application at <http://0.0.0.0:8000/> and the admin site
-at <http://0.0.0.0:8000/admin>.
-
-#### features implemented:
+#### Features Implemented:
   * Search the city
   * Adding the city
   * Calling the open api from <https://openweathermap.org/api>
@@ -24,6 +8,25 @@ at <http://0.0.0.0:8000/admin>.
   * add global css
   * modify admin html (dashboard)
   * custom form distribution
+
+Here is the client view of this project:
+![](./pictures/image.png)
+
+# Quick start with Docker Django & Run locally
+=============
+# Set up the environment
+Install Docker Engine from the tutorial https://docs.docker.com/engine/installation/.
+Install Docker Compose from the tutorial https://docs.docker.com/compose/install/.
+
+Get the latest project clone to your computer:
+$ git clone https://github.com/tanvirewu/Credit-engine-weather-app-by-using-open-wather-api.git
+
+Run docker-compose commands to start containers:
+$ docker-compose up
+
+
+Now you can access the application at <http://0.0.0.0:8000/> and the admin site
+at <http://0.0.0.0:8000/admin>.
 
 ## Folder structure
 
