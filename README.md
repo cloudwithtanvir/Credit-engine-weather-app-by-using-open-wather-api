@@ -28,6 +28,14 @@ $ docker-compose up
 Now you can access the application at <http://0.0.0.0:8000/> and the admin site
 at <http://0.0.0.0:8000/admin>.
 
+1. pip install -r requirements.txt
+2. python manage.py makemigrations credit_e_weather
+3. python manage.py migrate credit_e_weather
+4. python manage.py runserver
+### Run without docker
+
+
+
 ## Folder structure
 
 ```
