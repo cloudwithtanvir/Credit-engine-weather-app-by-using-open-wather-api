@@ -1,3 +1,4 @@
+
 #### Features Implemented:
   [x] Search the city
   [x] Calling the open api from <https://openweathermap.org/api>
@@ -13,6 +14,8 @@
   [x] Deploy on ECS
 Faceing some issues to deploy,it's fixable but it may take more hours 
 
+
+### Client View
 Here is the client view of this project:
 ![User Interface](./images/picture.jpg)
 
