@@ -11,6 +11,7 @@
       [x] Deploy on ECS
       [] Faceing some issues to deploy,it's fixable but it may take more hours 
 
+### Client View
 Here is the client view of this project:
 ![User Interface](./images/picture.jpg)
 
